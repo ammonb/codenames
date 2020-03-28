@@ -265,7 +265,7 @@ func (s *Server) Start() error {
 		}
 	}()
 
-	fmt.Println("Started server. Available on http://localhost:9091")
+	fmt.Println("Started server. Available on http://localhost:80")
 	return s.Server.ListenAndServe()
 }
 

@@ -15,7 +15,7 @@ func main() {
 
 	server := &codenames.Server{
 		Server: http.Server{
-			Addr: ":9091",
+			Addr: ":80",
 		},
 	}
 	if err := server.Start(); err != nil {
